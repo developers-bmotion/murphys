@@ -1,0 +1,12 @@
+2020-05-19T20:31:05+00:00 CRITICAL Uncaught Error: Call to a member function get_upsell_ids() on string in /home/forge/murphys.com.co/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1969
+Stack trace:
+#0 /home/forge/murphys.com.co/wp-content/themes/picante/includes/codeless_functions_woocommerce.php(897): woocommerce_upsell_display()
+#1 /home/forge/murphys.com.co/wp-includes/class-wp-hook.php(288): {closure}('')
+#2 /home/forge/murphys.com.co/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/forge/murphys.com.co/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/forge/murphys.com.co/wp-content/themes/picante/includes/codeless_hooks.php(41): do_action('codeless_hook_c...')
+#5 /home/forge/murphys.com.co/wp-content/themes/picante/woocommerce.php(34): codeless_hook_content_begin()
+#6 /home/forge/murphys.com.co/wp-includes/template-loader.php(98): include('/home/forge/mur...')
+#7 /home/forge/murphys.com.co/wp-blog-header.php(19): require_once('/home/forge/mur...')
+#8 /home/forge/murphys.co en /home/forge/murphys.com.co/wp-content/plugins/woocommerce/includes/wc-template-functions.php en la línea 1969
+

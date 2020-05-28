@@ -1,0 +1,503 @@
+#logo img{
+    height:20px;
+}
+.header_container.menu_style-border_top.menu-full-style nav > ul > li, .header_container.menu_style-border_bottom.menu-full-style nav > ul > li, .header_container.menu_style-border_left.menu-full-style nav > ul > li, .header_container.menu_style-border_right.menu-text-style nav > ul > li > a, .header_container.menu_style-border_top.menu-text-style nav > ul > li > a, .header_container.menu_style-border_bottom.menu-text-style nav > ul > li > a, .header_container.menu_style-border_left.menu-text-style nav > ul > li > a, .header_container.menu_style-border_right.menu-text-style nav > ul > li > a{
+    border-style:solid;
+}
+.header_container.menu_style-border_top.menu-full-style #navigation nav > ul > li:hover, .header_container.menu_style-border_top.menu-full-style #navigation nav > ul > li.current-menu-item, .header_container.menu_style-border_bottom.menu-full-style #navigation nav > ul > li:hover, .header_container.menu_style-border_bottom.menu-full-style #navigation nav > ul > li.current-menu-item, .header_container.menu_style-border_left.menu-full-style #navigation nav > ul > li:hover, .header_container.menu_style-border_left.menu-full-style #navigation nav > ul > li.current-menu-item, .header_container.menu_style-border_right.menu-full-style #navigation nav > ul > li:hover, .header_container.menu_style-border_right.menu-full-style #navigation nav > ul > li.current-menu-item, .header_container.menu_style-border_top.menu-text-style #navigation nav > ul > li > a:hover, .header_container.menu_style-border_top.menu-text-style #navigation nav > ul > li.current-menu-item > a, .header_container.menu_style-border_bottom.menu-text-style #navigation nav > ul > li > a:hover, .header_container.menu_style-border_bottom.menu-text-style #navigation nav > ul > li.current-menu-item > a, .header_container.menu_style-border_left.menu-text-style #navigation nav > ul > li > a:hover, .header_container.menu_style-border_left.menu-text-style #navigation nav > ul > li.current-menu-item > a, .header_container.menu_style-border_right.menu-text-style #navigation nav > ul > li > a:hover, .header_container.menu_style-border_right.menu-text-style #navigation nav > ul > li.current-menu-item > a{
+    border-color:#e68556;
+}
+.header_container.menu_style-background_color.menu-full-style #navigation nav > ul > li:hover, .header_container.menu_style-background_color.menu-full-style #navigation nav > ul > li.current-menu-item, .header_container.menu_style-background_color.menu-text-style #navigation nav > ul > li > a:hover, .header_container.menu_style-background_color.menu-text-style #navigation nav > ul > li.current-menu-item > a{
+    background-color:#222;
+}
+.header_container:not(.cl-header-sticky-active) #navigation nav > ul > li:hover, .header_container:not(.cl-header-sticky-active) #navigation nav > ul > li.current-menu-item, .header_container:not(.cl-header-sticky-active) #navigation nav > ul > li > a:hover, .header_container:not(.cl-header-sticky-active) #navigation nav > ul > li.current-menu-item > a, .header_container:not(.cl-header-sticky-active) #navigation nav > ul > li:hover > a, .header_container:not(.cl-header-sticky-active) #navigation nav > ul > li.current-menu-item > a{
+    color:#e68556!important;
+}
+.header_container nav ul li a{
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:0.0px;
+    line-height:16px;
+    text-align:center;
+    text-transform:uppercase;
+    color:#262a2c;
+}
+nav .codeless_custom_menu_mega_menu h6, .cl-mobile-menu nav > ul > li > a{
+    font-size:14px;
+    letter-spacing:0.04em;
+    line-height:26px;
+    text-transform:uppercase;
+    color:#eae5d6;
+}
+nav .menu li ul.sub-menu li a, .cl-submenu a, .cl-submenu .empty{
+    font-size:14x;
+    font-weight:600;
+    letter-spacing:0px;
+    line-height:30px;
+    text-transform:none;
+    color:#eae5d6;
+}
+.header_container > .main .c-left.header-col{
+    align-items:center;
+}
+.header_container > .main .c-middle.header-col{
+    align-items:center;
+}
+.header_container > .main .c-right.header-col{
+    align-items:center;
+}
+.header_container > .main{
+    background-position:left top;
+    background-repeat:no-repeat;
+    border-style:solid;
+    border-color:#dbe1e6;
+}
+.header_container > .top_nav{
+    background-color:#262A2C;
+    background-position:left top;
+    background-repeat:no-repeat;
+    border-style:solid;
+    border-color:rgba(235,235,235,0.17);
+}
+.header_container.header-top > .extra_row, .header_container.header-bottom > .extra_row{
+    height:40px;
+    line-height:40px;
+}
+.header_container > .extra_row{
+    background-position:left top;
+    background-repeat:no-repeat;
+    border-style:solid;
+    border-color:rgba(235,235,235,0.17);
+}
+nav .codeless_custom_menu_mega_menu, nav .menu > li > ul.sub-menu, nav .menu > li > ul.sub-menu ul, .cl-mobile-menu, .cl-submenu{
+    background-color:#222;
+}
+nav .menu li > ul.sub-menu li:hover, #site-header-cart .cart_list li:hover, #site-header-search input[type="search"]{
+    background-color:rgba(255,255,255,0);
+}
+nav .menu li ul.sub-menu li a:hover, #site-header-search input[type="search"], nav .menu li ul.sub-menu li.hasSubMenu.showDropdown > a{
+    color:#fff!important;
+}
+nav .codeless_custom_menu_mega_menu > ul > li, #site-header-search input[type="search"]{
+    border-color:rgba(58,58,58,0);
+}
+.header_container.cl-header-sticky-ready{
+    background-color:#ffffff;
+}
+#testimonial-entries .testimonial_item .title, footer#colophon .widget ul.social-icons-widget li a:hover, aside .widget_categories ul li:hover, body.cl-one-page .header_container:not(.cl-header-light) nav > ul > li.current-menu-item-onepage > a, aside .widget ul li a:hover, aside .widget_rss cite, h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover, .cl-pagination a:hover, mark.highlight, .cl_team.style-simple .team-item .team-position, .cl_toggles.style-simple .cl_toggle .title[aria-expanded="true"], .cl_counter, .single-post .nav-links > div a .nav-title:hover, .shop-products .product_item .cl-price-button-switch a, .woocommerce div.product p.price, .woocommerce div.product span.price, .single-post article .entry-content > a, .header-el .widgetized form i, .cl_toggles.style-square_plus .cl_toggle .title > a:before, .cl_tabs.style-simple .cl-nav-tabs li.active a, aside .widget_nav_menu > ul li:hover > a, .cl_list.style-circle li > i, .cl_pricelist .price .integer-part, .cl_pricelist .price .decimal-part, .cl_pricelist .header.panel, .cl-filters button.selected, .calculated_result, .wpcf7-calculated, .cl-header-side .header_container .extra_tools_wrapper .tool:hover i, .cl-header-side .header_container.header-left nav > ul > li > a:hover:after, .entry-meta-tools .entry-meta-single a, .cl-price-rating .price, body[class*=" currency-"] .cl-price-rating .price, .shop-products .product_item .cl-actions a:hover i, .shop-products .product_item .cl-actions .add_to_cart_button:hover:after, .shop-products .product_item .cl-actions .add_to_cart_button:hover:after, .shop-products .product_item .cl-actions .add_to_wishlist:hover:after, .single-product .cl-info.gift .tooltip a, .single-product .cl-wishlist-share-wrapper .wishlist i, .add_to_wishlist_button i, .cl-default-page-header .page_parents li.active a, table.shop_table .cart_item .product-data .in-stock i, table.cart td.actions .coupon label i, .cart-collaterals .shipping-calculator-button, .cart-collaterals #shipping_method li input[type=radio]:checked ~ .check:before, .cl-info-checkout a, .cl-info-checkout i, .payment_method_paypal a, .cl_woocommerce a.show-all, .cl-product-collection-feature .data a:hover, #portfolio-entries.portfolio-style-presentation .portfolio_item .entry-wrapper-content .entry-content a.preview, .cl-closed-section .close_section_button .icon, .cl-sidenav ul li.current_page_item a, .summary .group_table tr td.label .price *, .woocommerce-loop-category__title mark, .content-col a:not(.cl-btn):hover, .cl_team.style-left_aligned .position, .header_container.cl-header-light:not(.cl-responsive-header.cl-header-sticky-ready) .tool .tool-link .cart-total, .testimonial-entries.style-simple .position, article.default-style .categories_list, .entry-meta a, .blog-entries article .entry-readmore, .comments-title .nr, .comment-author-link .author, .single-menu-tab.active h3 a, .woocommerce .star-rating:before, .woocommerce .star-rating span, .woocommerce #reviews #comments .woocommerce-review__author, .woocommerce p.stars a:before, #site-header-cart .quantity, table.shop_table .woocs_special_price_code, table.shop_table td.product-subtotal, .cl-text a:hover, .portfolio-style-only_media .price, .cl_table_row.style-big .price span, article.grid-style .categories_list{
+    color:#e68556!important;
+}
+.header_container.menu_style-border_effect #navigation nav > ul > li > a:hover:after, .header_container.menu_style-border_effect #navigation nav > ul > li.current-menu-item > a:after, article.format-gallery .swiper-pagination-bullet-active, .cl-pagination-jump > div a:hover, .shop-products .product_item .onsale, .cl-product-info .onsale, .widget_product_categories ul li.current-cat > a:before, .search__inner--down, .cl_blog .news-entries article:hover .post-categories li, .header_container.menu_style-border_effect_two #navigation nav > ul > li > a:hover:after, .header_container.menu_style-border_effect_two #navigation nav > ul > li.current-menu-item > a:after, .cl_tabs.style-large .cl-nav-tabs li a, aside .widget_nav_menu ul li.current-menu-item, .w3eden .label-default, .tablepress .sorting:hover, .tablepress .sorting_asc, .tablepress .sorting_desc, .cl_column.with_shadow > .cl_col_wrapper > .col-content .cl_pricelist .header, .shop-products .product_item .cl-learnmore, .tool .tool-link .cart-total, .cl-header-side .header_container .extra_tools_wrapper .tool:hover a span.cart-total, article .entry-media-wrapper .entry-tag-list a:hover, .cl-pagination span.current, aside .widget-title:after, aside .widget_calendar td#today a, .blog-entries .fullimage_transparent-style h2:after, .cl_blog .blog-filters .title h2:after, .cl-default-page-header h2:after, .cl_mailchimp.style_large_button input[type="submit"], aside .widget_custom_html .boxed-style .mc4wp-form-fields input[type="submit"], .all-centered article h2:after, .cl_blog .news-entries h2:after, article .entry-tools .entry-tool-share .share-buttons a:hover, .otw-submit-btn, .wc-proceed-to-checkout .checkout-button.continue-shopping, .social_widget .social-icons-widget.boxed li:hover, .mc4wp-form p input[type="submit"]{
+    background-color:#e68556;
+}
+.tablepress thead, .wpcf7-radio_custom [type="radio"]:checked:before, .cl-info-checkout a, .payment_method_paypal a, .cl_woocommerce a.show-all, .cl-carousel:not(.flex-control-thumbs) .owl-nav [class*=owl-]:hover:after, article .entry-tools .entry-tool-share .share-buttons a:hover{
+    border-color:#e68556;
+}
+.light-text #testimonial-entries .testimonial_item .title{
+    color:#a8db51!important;
+}
+.cl_toggles.style-square_plus .cl_toggle .title > a:before, .cl_pricelist .header.panel, .cl-filters.cl-filter-fullwidth.cl-filter-color-dark button.selected, .wpcf7-radio_custom [type="radio"]::before{
+    background-color:#a8db51;
+}
+aside .widget_nav_menu ul li.current-menu-item{
+    border-color:#a8db51;
+}
+article.sticky, aside .widget_categories select, aside .widget_archive select, aside .widget_search input[type="search"], input:focus,textarea:focus,select:focus, button:focus:not(.selected), .grid-entries article .grid-holder .grid-holder-inner, .masonry-entries article .grid-holder .grid-holder-inner, .portfolio-style-classic .portfolio_item .entry-wrapper-content, .portfolio-style-classic_excerpt .portfolio_item .entry-wrapper-content, .cl_contact_form7.style-simple input:not(.cl-btn), .cl_contact_form7.style-simple textarea , .cl_contact_form7.style-simple select, .cl_toggles.style-simple .cl_toggle > .title, .single-post .entry-single-tags a, .single-post .post-navigation, article.comment, #respond.comment-respond textarea, #respond.comment-respond .comment-form-author input, #respond.comment-respond .comment-form-email input, #respond.comment-respond .comment-form-url input, aside .widget_product_search input,[type="search"], .cl-product-info .product_meta, .post-password-form input[type="password"], .tablepress tbody td, .tablepress tfoot th, .search-element input[type="search"], .search-element .select2-container:not(.select2-container--open), .sort-options .select2-container:not(.select2-container--open), .variations_select:not(.select2-container--open), .select2-dropdown, article .entry-tools .entry-tool-share .share-buttons, aside .widget_calendar thead th, .single_blog_style-classic.cl-layout-fullwidth article.single-article .entry-meta-tools .entry-tools, .single_blog_style-classic.cl-layout-fullwidth, .single-product .summary h1, .single-product .summary .cl-info.instock, .tawcvs-swatches .swatch-label, .woocommerce-product-details__short-description, .woocommerce .quantity .qty, .woocommerce .quantity:before, .woocommerce .quantity:after, .single-product .cl-wishlist-share-wrapper .share, .woocommerce div.product .woocommerce-tabs ul.tabs, .single-product .cl-complete-look h6, .cl-review-info .average, .cl-review-info .leave-review, .single-product .related.products .owl-nav > div, .woocommerce table.shop_attributes th, .woocommerce table.shop_attributes td, .woocommerce table.shop_attributes th, .woocommerce table.shop_attributes, .woocommerce table.shop_table td, table.shop_table .cart_item .product-data .meta, .cart-collaterals, .cart-collaterals .order-total td,.cart-collaterals .order-total th, .shipping-calculator-form .select2-container, .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, .shipping-calculator-form button[type="submit"], .woocommerce .form-row .select2-container, .woocommerce-checkout-review-order-table tfoot th, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table tfoot tr:last-child th, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table tfoot tr:last-child td, #customer_login.u-columns .login_div .or, .woocommerce-MyAccount-navigation ul, .woocommerce input, #site-header-cart ul li, #site-header-cart, #site-login-box, footer .cl-btn, #top_footer.add-topfooter-border-top, .cl_table_row, .single_blog_style-classic, .single_blog_style-classic article.single-article .entry-meta-tools .entry-tools, .advanced-list-entries .product_item .inner-wrapper .advanced-list, .advanced-list-entries .product_item .inner-wrapper, .list-entries .product_item .inner-wrapper, .single-post .single-author, .all-centered article .entry-meta, .portfolio-navigation.simple, #content > .fixed-up-sells .up-sells h5, .single-post .tagged-in, .single-post .cl-comments, .single-menu-tab, .dark-text .otw-date-li input, .dark-text .otw-time-wrap select, .dark-text .otw-party-size-wrap select, .woocommerce #reviews #comments ol.commentlist li, .single-product .related.products h4, .woocommerce-cart .cart-collaterals .cart_totals tr, .cross-sells h2, .cl-filters.cl-filter-align-center .inner{
+    border-color:#e3e3e3!important;
+}
+.header_container.cl-header-dark .extra_tools_wrapper .tool:after, #copyright .add-copyright-inner-border-top:before, .parallel-divider.wrapper-heading .divider, .cl-portfolio-filter.cl-filter-small.cl-filter-color-light button:after, aside.style-sidebar-blog .widget-title:after, article .entry-tools .entry-tool-share .share-buttons:after{
+    background-color:#e3e3e3!important;
+}
+article.format-quote .entry-content i, article.format-quote .entry-content .quote-entry-author, aside .widget_categories ul li, aside .widget_archive ul li, aside .widget_recent_entries .post-date, aside .widget_rss .rss-date, .cl_contact_form7.style-simple label, #respond.comment-respond p > label, article.comment .comment-reply-link, article.comment .comment-edit-link, .woocommerce-result-count, .widget_product_categories ul li .count, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .widget_twitter li .content .date, .search-element input[type="search"], .mc4wp-form p input[type="email"], .cl-header-side .header_container:not(.cl-responsive-header) .extra_tools_wrapper .tool a i, .cl-header-side .header_container.header-left nav > ul > li > a:after, .entry-meta-single:after, .shop-products .product_item .tags, .woocommerce ul.products li.product .price del .amount, .single-product .summary.entry-summary .price del, .single-product .cl-style-default .cl-info, select, aside .widget.woocommerce .widget-title, .cl-shop-filter button, .portfolio-navigation.simple a.main_portfolio{
+    color:#8a9eae;
+}
+.cl-pagination-jump > div > a, .cl_progress_bar .progress, .single-post .entry-single-tools .single-share-buttons a, .btn-priority_secondary, .cl-filters.cl-filter-fullwidth.cl-filter-color-light, .cl_team.style-simple .team-item .team-content, .quick-searches .tags a, .widget .tagcloud a, .single_blog_style-classic.cl-layout-fullwidth article.single-article .entry-tag-list a, .select2-container--default .select2-results__option--highlighted[aria-selected], .variations_select .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option[aria-selected=true], .variations_select .select2-results__option[aria-selected=true], .grid-options a.active, .single_blog_style-classic article.single-article .entry-tag-list a, .blog-entries.grid-minimal-style article .entry-tag-list a:not(:hover), .single-modern-header .entry-tag-list a, .woocommerce table.shop_table thead th, .shop_table_responsive.cart .actions, #site-header-cart, .your-order, .woocommerce-order .cl-thankyou-data{
+    background-color:#f7f4ed;
+}
+.quick-searches .tags a:hover, .widget .tagcloud a:hover, .single_blog_style-classic.cl-layout-fullwidth article.single-article .entry-tag-list a:hover{
+    background-color:#dbe1e6;
+}
+.btn-priority_secondary, .extra_tools_wrapper .tool.shop .cart-details .cart-total-sum, .extra_tools_wrapper .tool.wishlist span, .search-element .search-input i, .search-element .select2-container, .sort-options .select2-container, .variations_select, .search-element .select2-container .select2-selection--single, .sort-options .select2-container .select2-selection--single, .select2-container--default .select2-selection--single .select2-selection__rendered, .variations_select .select2-selection--single, .quick-searches .tags a:hover, .widget .tagcloud a:hover, .single_blog_style-classic.cl-layout-fullwidth article.single-article .entry-tag-list a:hover, .select2-results__option, .select2-container--default .select2-results__option[aria-selected=true], .header_container.cl-header-light .extra_tools_wrapper.style-small .tool:hover i, .extra_tools_wrapper .show-side-header, .blog-entries .default-style .entry-tool-single span, article .entry-media-wrapper .entry-tag-list a, .cl-pagination a, .cl-carousel .owl-nav .owl-prev:after, .cl-carousel .owl-nav .owl-next:after, article.format-gallery .cl-post-swiper-slider .swiper-button-prev:after, article.format-gallery .cl-post-swiper-slider .swiper-button-next:after, .grid-options label, .grid-options a.active, .single_blog_style-classic article.single-article blockquote, .single-post .single-author .author_wrapper .author_content .author_links a, .single-blog-extra-heading, .single-product .summary.entry-summary .price ins .amount, .single-product .product .summary form.cart .variations label, .product .qty_container label, .single-product .cl-wishlist-share-wrapper, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .cl-review-info .average span.star, .woocommerce #reviews #comments .cl-user-info .woocommerce-review__author, table.shop_table .cart_item .product-data > a, table.shop_table .cart_item .product-data .meta dd, table.shop_table .cart_item .product-data > .wishlist, table.shop_table .product-price ins .amount, .woocommerce-checkout-review-order-table td.product-total span, .woocommerce-checkout-review-order-table tfoot td span, .cart-collaterals #shipping_method li input[type=radio]:checked ~ label, .shipping-calculator-form button[type="submit"], .cl-info-checkout, .woocommerce .order_details li strong, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table th, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table td.woocommerce-table__product-total, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table tfoot td, .woocommerce .track_order .form-row label, #customer_login.u-columns .col-2 form label, .woocommerce-MyAccount-navigation ul li a, .woocommerce-MyAccount-content label, aside .widget.woocommerce .product-categories li, aside .widget.woocommerce .product-categories li a:after, .cl-closed-section .close_section_button .anchor, .open-filters, aside.style-sidebar-blog .widget-title, aside .social_widget .social-icons-widget li a i, .single-modern-header .entry-tag-list a, #portfolio-entries .portfolio_item .entry-overlay .categories a, .portfolio-navigation.simple, .cl-sidenav ul li a, input:not(.search-field):not(.cl-btn):not(.otw-reservation-date):not([type="submit"]):not(.medium-editor-toolbar-input):not(.qty):not(.search__input), textarea, .dark-text .otw-time-wrap select, .dark-text .otw-party-size-wrap select, .cl-product-info .product_meta span.title, .cart-collaterals h2, .cart-collaterals .order-total td span{
+    color:#23292c !important;
+}
+#cl_load_more_btn, .cl-pagination-jump > div > a:hover, .cl-mobile-menu-button span, .cl-hamburger-menu span, .single-post .entry-single-tags a:hover, .single-post .entry-single-tools .single-share-buttons a:hover, .return-to-shop a, .light-text .cl_widget_sidebar .widget_search input[type="search"]{
+    background-color:#23292c;
+}
+article.format-quote .entry-content .quote-entry-content p, article.format-quote .entry-content .quote-entry-content a, .cl-pagination a, .cl-pagination span.current, .cl-pagination-jump a, .cl_progress_bar .labels{
+    color:#23292c;
+}
+.cl-layout-modern-bg{
+    background-color:#f7f9fb;
+}
+body{
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-blend-mode:normal;
+    -webkit-background-size:auto;
+    -moz-background-size:auto;
+    -ms-background-size:auto;
+    -o-background-size:auto;
+    background-size:auto;
+}
+h1,h2,h3,h4,h5,h6, #testimonial-entries .testimonial_item .title, article.default-style.format-quote .entry-content, aside .widget_calendar caption, .cl_page_header .title_part .subtitle, .woocommerce-result-count, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce ul.products li.product .button, .extra_tools_wrapper .show-side-header, nav .codeless_custom_menu_mega_menu h6, .cl-mobile-menu nav > ul > li > a, .blog-entries .fullimage_transparent-style h2, .grid-options label, .widget_service a, .cl-price-rating .price, .woocommerce ul.products li.product .price del, .single-product .summary.entry-summary .price, .woocommerce .quantity .qty, .cl-review-info .average span.star, .woocommerce #reviews #comments .cl-user-info .woocommerce-review__author, table.shop_table .product-price .price, table.shop_table .woocs_special_price_code, .woocs_price_code > .woocommerce-Price-amount, .price > .woocommerce-Price-amount, .product-price > .woocommerce-Price-amount, .woocommerce-checkout-review-order-table tfoot td span, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table th, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table td.woocommerce-table__product-total, .woocommerce-order .cl-thankyou-data .woocommerce-order-details table tfoot th, .woocommerce-order .woocommerce-thankyou-order-received, .woocommerce table.wishlist_table .product-add-to-cart a, .woocommerce .track_order .form-row input[type="submit"], #customer_login.u-columns .login_div .or, .woocommerce-MyAccount-navigation ul li a, .woocommerce-MyAccount-content input[type="submit"], aside .widget.woocommerce .product-categories li, #site-header-cart .woocommerce-mini-cart__total, .cl_shop_tabbed .tabbed-tabs li a, .cl-shop-filter button, .cl-closed-section .close_section_button .anchor, .open-filters, .portfolio-navigation.simple span, .cl-sidenav ul li a, #customer_login.u-columns form input[type="submit"], article.default-style .categories_list, .cl-filters button, .single-post .tagged-in, .cl-product-info .product_meta, .woocommerce #reviews #comments .woocommerce-review__author, #site-header-cart ul li a span.data .title, #site-header-cart .quantity, table.shop_table .product-data > a, table.shop_table .woocs_special_price_code, table.shop_table td.product-subtotal, .cl_blog .news-entries .categories, .blog-entries .fullimage_transparent-style .categories, article.grid-style .categories_list{
+    font-family:Prata, Georgia, serif;
+}
+h1:not(.custom_font), .h1{
+    font-size:60px;
+    line-height:78px;
+    text-transform:none;
+    font-weight:400;
+    letter-spacing:1px;
+    color:#283233;
+}
+.light-text h1:not(.custom_font), .light-text .h1{
+    color:#ffffff !important;
+}
+h2:not(.custom_font), .h2{
+    font-size:36px;
+    line-height:48px;
+    text-transform:none;
+    font-weight:400;
+    letter-spacing:1px;
+    color:#283233;
+}
+.light-text h2:not(.custom_font), .light-text .h2{
+    color:#ffffff !important;
+}
+h3:not(.custom_font), .h3{
+    font-size:30px;
+    line-height:42px;
+    text-transform:none;
+    font-weight:400;
+    letter-spacing:0px;
+    color:#283233;
+}
+.light-text h3:not(.custom_font), .light-text .h3{
+    color:#ffffff !important;
+}
+h4:not(.custom_font), .h4{
+    font-size:18px;
+    line-height:30px;
+    text-transform:none;
+    font-weight:400;
+    letter-spacing:0px;
+    color:#283233;
+}
+.light-text h4:not(.custom_font), .light-text .h4{
+    color:#ffffff !important;
+}
+h5:not(.custom_font), .h5{
+    font-size:16px;
+    line-height:28px;
+    text-transform:none;
+    font-weight:400;
+    letter-spacing:1px;
+    color:#283233;
+}
+.light-text h5:not(.custom_font), .light-text .h5{
+    color:#ffffff !important;
+}
+h6:not(.custom_font), .h6{
+    font-size:14px;
+    line-height:22px;
+    text-transform:none;
+    font-weight:400;
+    letter-spacing:1px;
+    color:#283233;
+}
+.light-text h6:not(.custom_font), .light-text .h6{
+    color:#ffffff !important;
+}
+html, body, .light-text .breadcrumbss .page_parents, aside .widget_categories ul li a, aside .widget_archive ul li a, aside .widget_pages ul li a, #ship-to-different-address span, .summary .group_table tr td.label .price *, .cart-collaterals h2{
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    font-weight:400;
+    letter-spacing:0px;
+    line-height:30px;
+    text-transform:none;
+    color:#73848e;
+}
+.hentry:not(.fullimage_transparent-style):not(.news-style) h2.entry-title, .entry-single-related .fullimage_transparent-style .entry-title{
+    font-family:Prata, Georgia, serif;
+    font-size:30px;
+    font-weight:400;
+    letter-spacing:0.00em;
+    line-height:40px;
+    text-transform:none;
+    color:#23292c;
+}
+article.hentry .entry-meta{
+    font-size:14px;
+    font-weight:400;
+    letter-spacing:0.00em;
+    line-height:28px;
+    text-transform:none;
+    color:#73848e;
+}
+article.post h1.entry-title, .cl-default-page-header h2{
+    font-family:Prata, Georgia, serif;
+    font-size:48px;
+    font-weight:400;
+    letter-spacing:0px;
+    line-height:60px;
+    text-transform:none;
+    color:#23292c;
+}
+.portfolio_item .portfolio-categories a, .portfolio_item .portfolio-categories{
+    font-size:13px;
+    font-weight:400;
+    letter-spacing:0.00em;
+    line-height:20px;
+    text-transform:none;
+    color:#999;
+}
+.cl-btn:not(.btn-priority_secondary):not(.wpcf7-submit):not(.entry-readmore):not([name="apply_coupon"]):not(.single_add_to_cart_button):not(.update_item_submit):not(.checkout-button):not(#place_order){
+    background-color:#e68556;
+}
+.cl-btn:not(.btn-priority_secondary){
+    color:#fff;
+}
+.cl-btn:not(.btn-priority_secondary):not(.single_add_to_cart_button):not(.wc-forward):not(.checkout-button){
+    border-color:transparent;
+    border-width:1px;
+}
+aside .widget-title{
+    font-family:Montserrat, Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.06em;
+    line-height:20px;
+    text-transform:uppercase;
+    color:#23292c;
+}
+aside .widget{
+    padding-top:34px;
+    padding-bottom:34px;
+}
+.cl_counter{
+    font-size:60px;
+    font-weight:600;
+    letter-spacing:-3px;
+    line-height:64px;
+}
+.inner-content-row{
+    padding-top:75px;
+    padding-bottom:75px;
+}
+.blog-entries article{
+    margin-bottom:80px;
+}
+#portfolio-entries .portfolio_item{
+    padding:15px;
+}
+footer#colophon .widget{
+    padding-top:12px;
+    padding-bottom:12px;
+}
+footer#colophon{
+    border-style:solid;
+}
+footer#colophon, .footer-quick-searches-content-row .inner{
+    border-color:#dbe1e6;
+}
+footer#colophon, #copyright input, #copyright select, #copyright textarea{
+    background-color:#fff;
+}
+footer#colophon input[type="text"], footer#colophon select, footer#colophon textarea, footer#colophon input[type="email"], footer#colophon .social_widget .social-icons-widget.circle li, footer#colophon table tbody td{
+    background-color:#fff;
+}
+footer#colophon input[type="submit"]{
+    background-color:#fff;
+}
+footer#colophon .widget:not(.social_widget) .widget-title, #footer-wrapper .quick-searches span, .mc4wp-form p input[type="submit"]{
+    font-family:Montserrat, Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    line-height:28px;
+    text-transform:uppercase;
+    color:#262a2c;
+}
+footer#colophon, footer#colophon.widget_most_popular li .content .date{
+    color:#8b99a3;
+}
+footer#colophon a:not(.cl-btn), footer#colophon .widget_rss cite, footer#colophon .widget_calendar thead th{
+    color:#8b99a3 !important;
+}
+footer#colophon a:hover{
+    color:#262a2c !important;
+}
+footer#colophon .widget, footer#colophon input, footer#colophon select, footer#colophon textarea{
+    border-color:#dbe1e6;
+}
+#copyright{
+    background-color:#fff;
+    font-family:Montserrat, Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    letter-spacing:0.04em;
+    line-height:18px;
+    text-transform:uppercase;
+    color:#262a2c;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+#copyright a{
+    color:#262a2c !important;
+}
+#copyright a:hover{
+    color:#262a2c !important;
+}
+#copyright .widget, #copyright input, #copyright select, #copyright textarea{
+    border-color:#fff;
+}
+#top_footer{
+    background-color:#fff;
+    padding-top:38px;
+    padding-bottom:37px;
+}
+#top_footer .widget-title{
+    font-family:Montserrat, Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    line-height:28px;
+    text-transform:uppercase;
+    color:#262a2c;
+}
+#top_footer a:not(.tag-cloud-link){
+    color:#73848e !important;
+}
+#top_footer a:hover{
+    color:#222 !important;
+}
+#top_footer .widget, #top_footer input, #top_footer select, #top_footer textarea, .mc4wp-form p input[type="email"], .mc4wp-form p input[type="submit"]{
+    border-color:#dbe1e6;
+}
+@media (max-width: 991px){
+    #logo img{
+        height:20px;
+    }
+}
+@media (max-width: 480px){
+    #logo img{
+        height:20px;
+    }
+}
+@media (min-width: 992px){
+    .header_container.header-top nav > ul > li, .header_container.header-bottom nav > ul > li{
+        padding-left:24px;
+        padding-right:24px;
+    }
+    .header_container.header-left nav > ul > li, .header_container.header-right nav > ul > li, .vertical-menu nav > ul > li{
+        padding-top:24px;
+        padding-bottom:24px;
+    }
+    .header_container.header-left > .main .header-el, .header_container.header-right > .main .header-el{
+        margin-bottom:60px;
+    }
+    .header_container.header-top > .main .header-el, .header_container.header-bottom > .main .header-el{
+        margin-right:60px;
+    }
+    .header_container.header-top > .main, .header_container.header-bottom > .main{
+        height:130px;
+        line-height:130px;
+    }
+    .header_container.header-left > .top_nav .header-el, .header_container.header-right > .top_nav .header-el{
+        margin-bottom:24px;
+    }
+    body:not(.rtl) .header_container.header-top > .top_nav .header-el, body:not(.rtl) .header_container.header-bottom > .top_nav .header-el{
+        margin-right:24px;
+    }
+    body.rtl .header_container.header-top > .top_nav .header-el, body.rtl .header_container.header-bottom > .top_nav .header-el{
+        margin-left:24px;
+    }
+    .header_container.header-top > .top_nav, .header_container.header-bottom > .top_nav{
+        height:30px;
+        line-height:30px;
+    }
+    .header_container.header-left > .extra_row .header-el, .header_container.header-right > .extra_row .header-el{
+        margin-bottom:60px;
+    }
+    .header_container.header-top > .extra_row .header-el, .header_container.header-bottom > .extra_row .header-el{
+        margin-right:60px;
+    }
+    .cl-boxed-layout{
+        width:1200px;
+    }
+    .blog-entries.blog_page{
+        width:100%;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        width:1180px;
+    }
+}
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_ZpC3gnD_vx3rCs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_c5H3gnD_vx3rCs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_epG3gnD_vx3rCs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Prata Regular'), local('Prata-Regular'), url(https://fonts.gstatic.com/s/prata/v9/6xKhdSpbNNCT-sWPCm7bLnwI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }

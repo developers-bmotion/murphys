@@ -1,0 +1,30 @@
+/*
+ Theme Name:     Picante Child Theme
+ Theme URI:      https://www.codeless.co/picante/presentation
+ Description:    Picante Child Theme
+ Author:         Codeless
+ Author URI:     https://www.codeless.co
+ Template:       picante
+
+ Version:        1.0.1
+ Template Version: 1.0.0
+ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, flexible-header, custom-colors, full-width-template
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.cl-element{
+  line-height: 100% !important;
+}
+
+@media (max-width: 991px) {
+	.header-el.cl-hide-on-mobile {
+		display: block !important;
+		visibility: inherit;
+	}
+	.cl-btn:not(.btn-priority_secondary):not(.wpcf7-submit):not(.entry-readmore):not([name="apply_coupon"]):not(.single_add_to_cart_button):not(.update_item_submit):not(.checkout-button):not(#place_order) {
+    background-color: #f38d00;
+    padding: 10px 10px;
+}
+}
